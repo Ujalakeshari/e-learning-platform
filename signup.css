@@ -1,0 +1,159 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color:  #008DDA;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.forms {
+    width: 100%;
+    max-width: 400px;
+    background-color: #e9e5ed;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.forms {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-content {
+    width: 100%;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.password {
+    width: calc(100% - 30px);
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.button-field {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Form link */
+.form-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-link .link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-link .link:hover {
+    text-decoration: underline;
+}
+
+/* Media options */
+.media-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.google {
+    background-color: #db4437;
+    color: #fff;
+}
+
+.facebook-icon,
+.google-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Divider line */
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 20px 0;
+}
